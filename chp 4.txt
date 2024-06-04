@@ -1,0 +1,57 @@
+Chp 4
+  1. Explain any 4 keywords used for exception handling in Java.
+ANS)
+try: Program statements which can generate exceptions are contained within a try block. If an exception occurs within the try block, it is thrown.
+
+catch: It contain exception handling code. A catch block immediately follows the try block. The catch block can have one or more statements that are necessary  to process the exception.
+
+throw: It is mainly used to throw an instance of user defined exception.To declare that a method may throw one or some exceptions.
+
+finally: finally block is a block that is used to execute important code such as closing connection, stream etc.
+
+
+2. Describe life cycle of thread with suitable diagram.
+
+Thread Life Cycle Thread has five different states throughout its life.
+1.	Newborn State
+2.	Runnable State
+3.	Running State
+4.	Blocked State
+5.	Dead State
+
+
+3. Describe types of Errors in details.
+ANS)
+Types of Error
+1)   Compile Time Errors:
+All syntax errors given by Java Compiler are called compile time errors. When program is compiled java checks the  syntax of each statement. 
+Common compile time Errors
+1)	Missing semicolon
+2)	Missing of brackets in classes and methods
+3)	Misspelling of variables and keywords.
+
+2)   Run time error:
+After creating .class file, Errors which are generated, while program is running are known as runtime errors. It results in termination of program.
+Common runtime Errors
+1)	Dividing an integer by zero.
+2)	Accessing an element that is out of the bounds of an array.
+
+
+4. Name any four built in Exceptions in Java.
+ANS)Built-in Exceptions,Arithmetic Exception,IOException,ClassNotFoundException
+
+
+5. Describe methods of creating a thread with example.
+ANS)
+Method to create a thread are:
+1) By implementing the Runnable interface.
+2) By extending the Thread class.
+
+
+6.Thread methods any two 
+(3)	resume():
+syntax : public void resume()
+This method resumes a thread which was suspended using suspend() method.
+(4)	notify():
+syntax: public final void notify()
+notify() method wakes up the first thread that called wait() on the same object
